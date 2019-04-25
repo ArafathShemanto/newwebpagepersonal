@@ -1,0 +1,105 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    /*===== home area ===============*/
+    .home-area-content h2 {
+        font-size: 35px;
+    }
+    .home-area-content h3 {
+        font-size: 25px;
+    }
+    /*====== section title =========== */
+    .section-title-opa {
+        display: none;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+    /*======== header area =========*/
+    .home-area-content h2 {
+        font-size: 18px;
+    }
+    .home-area-content h3 {
+        font-size: 16px;
+    }
+    .theme-btn {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .section-title-opa{
+        display: none;
+    }
+    /*=========== section-title========== */
+    .section-title h2 {
+        font-size: 25px;
+    }
+    .section-title h3 {
+        font-size: 17px;
+    }
+    .section-title h3::before {
+        width: 40px;
+    }
+    /* =========== about area======== */
+    .about-thumb-inner img{
+        margin-bottom: 30px;
+    }
+    .about-down {
+        display: none;
+    }
+    /*============ offcanvas menu  =========*/
+    .offcanvas-menu {
+        width: 100%;
+        right: -100%;
+    }
+    .offcanvas-menu.active{
+        right: 0;
+    }
+    .offcanvas-cell li a {
+        font-size: 17px;
+    }
+    .offcanvas-menu {
+        padding: 30px;
+        }
+    .offcanvase-bottom {
+        left: 30px;
+    }
+    .menu-close {
+        width: 40px;
+    }
+    .menu-close i{
+        font-size: 20px;
+    }
+    /*========= contact area======= */
+    .contact-form {
+       padding: 0;
+    }
+    /* skill css */
+    .single-skill-bar {
+        padding-right: 0;
+    }
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
